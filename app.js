@@ -5,10 +5,9 @@ var isPrime = function(num) {
   for (var i = 2; i < num; i++) {
     if(num % i === 0) {
       return false;
-    } else {
-      return true;
     };
   };
+  return true;
 };
 
 // this for loop checks numbers 100
@@ -23,4 +22,4 @@ var numberSelect = function(num) {
   console.log(toPrint);
 };
 
-numberSelect(10002);
+numberSelect(10001);
